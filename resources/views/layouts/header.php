@@ -52,9 +52,16 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link text-blue" href="#">
+                        <a class="nav-link text-blue" href="<?= route('signin')?>">
                             <i class="fas fa-sign-out-alt"></i>
-                            Déconnexion
+                            Connexion
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-blue" href="<?= route('signup')?>">
+                            <i class="fas fa-sign-out-alt"></i>
+                            Inscription
                         </a>
                     </li>
 
